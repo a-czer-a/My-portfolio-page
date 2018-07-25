@@ -17,8 +17,6 @@ body {
 .left-side {
     position: relative;
     width: 50%;
-    /* background-image: url("https://images.pexels.com/photos/355728/pexels-photo-355728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
-    /* background-image: url("https://images.pexels.com/photos/433604/pexels-photo-433604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
     background-color: #9b3c70;
 }
 
@@ -30,7 +28,9 @@ body {
 }
 
 /* RIGHT SIDE */
+
 .right-side {
+    position: relative;
     z-index: 100;
     width: 50%;
     background-color: #fffafd;
@@ -42,6 +42,7 @@ body {
 }
 
 /* HAMBURGER MENU */
+
 .menu-wrapper {
     position: absolute;
     top: 50px;
@@ -113,14 +114,8 @@ body {
     top: 0;
     /* background-color: rgba(73, 60, 67, 0.95); */
     background-color: #000;
-    /* opacity: 0.9; */
-    /* display: none; */
     z-index: 1000;
-    /* transition: all 0.5s ease-in-out; */
-    /* overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.5s, visibility 0s 0.5s; */
+    overflow: hidden;
 }
 
 .overlay-content {
@@ -152,7 +147,6 @@ nav {
 }
 
 ul li {
-    /* display: inline; */
     list-style-type: none;
     padding: 20px;
 }
@@ -166,26 +160,16 @@ nav a {
 /* HEADING */
 
 .title {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
-}
-
-/* .arrow {
     position: absolute;
-    bottom: 30px;
-    right: 24%;
-    font-size: 3.1em;
-    margin: 0 auto;
-    text-align: center;
+    top: 34%;
+    left: 0;
+    right: 0;
 }
-
-.arrow svg path {
-    fill: #9b3c70;
-} */
-
 
 h1 {
-    margin-top: 36%;
+    /* margin-top: 36%; */
     text-transform: uppercase;
     font-size: 2.8em;
     color: #9b3c70;
@@ -254,7 +238,6 @@ h3 {
     fill: #724e8a;
 }
 
-
 .github {
     background-color: #f088c6;
 }
@@ -268,22 +251,4 @@ h3 {
     fill: #fffafd;
 }
 
-/*  ABOUT */
-
-.about {
-    position: relative;
-    height: 300px;
-    background-color: #493c43;
-    /* background-color: #9b3c70; */
-    margin: 0;
-    padding: 60px 0 0 0;
-}
-
-/* .about-title {
-    background-color: #fffafd;
-    height: 30px;
-    -webkit-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-} */
 
